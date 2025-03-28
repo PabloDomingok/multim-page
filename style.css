@@ -1,0 +1,14 @@
+:root {
+    --cyan-bright: #00b6de;
+    --blue-vivid: #1259ff;
+    --blue-deep: #121af9;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  
