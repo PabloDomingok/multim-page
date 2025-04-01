@@ -167,6 +167,69 @@ nav button{
     cursor: pointer;
 }
 
+/*features*/
 
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 4rem;
+}
 
+.features-title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+
+.features-title p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--grey);
+}
+
+.features-title h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.features-title span{
+    color:var(--blue-deep);
+}
+
+.features-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.features-card{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.features-card p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--grey);
+    text-align: center;
+}
+
+.features-card img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
 
