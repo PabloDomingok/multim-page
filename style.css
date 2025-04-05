@@ -211,6 +211,7 @@ nav button{
 .features-card{
     width: 30%;
     height: 300px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,4 +280,91 @@ nav button{
     gap: 1rem;
 }
 
+/*clients*/
 
+.clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 4rem;
+}
+
+.clients-title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+
+.clients-title p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--grey);
+}
+
+.clients-title h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.clients-title span{
+    color:var(--blue-deep);
+}
+
+.clients-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:50%;
+    position: relative;
+    gap: 2rem;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clients-card-info{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.clients-card-info p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--grey);
+    text-align: left;
+    font-style: italic;
+}
+
+.clients-card-container img{
+    width:50%;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.arrows {
+    position: absolute;
+    bottom: -25px;
+    right:0px;   /* o top: 20px; si querés arriba */
+    z-index: 999;
+    display: flex;
+    gap: 12px;
+    font-size: 30px;
+    width:100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.arrows i{
+    color: var(--blue-deep);
+    font-size: 2rem;
+    cursor: pointer;
+}  
